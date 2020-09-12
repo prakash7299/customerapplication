@@ -4,7 +4,7 @@ import { PipeTransform, Pipe } from '@angular/core';
 export class LengthStringPipe implements PipeTransform{
    
     transform(original: string,args):number {   
-   console.log("inside substring transform, original="+original);
+   console.log("inside length transform, original="+original);
    let desired=original.length;
    return desired;
  }
